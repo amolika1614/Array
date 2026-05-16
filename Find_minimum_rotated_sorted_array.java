@@ -7,7 +7,7 @@ Notice that rotating an array [a[0], a[1], a[2], ..., a[n-1]] 1 time results in 
 Given the sorted rotated array nums that may contain duplicates, return the minimum element of this array.
 
 You must decrease the overall operation steps as much as possible.*/
-class Solution {
+class psp {
     public static int findMin(int[] nums) {
         int n = nums.length - 1;
         int last = nums[n];
