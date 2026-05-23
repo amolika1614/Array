@@ -9,7 +9,7 @@ class RemoveDuplicate
 {
   public static int remove(int [] nums)
 {
-        int k=1;
+        int k=1;       // first element can never be duplicate
 
  for(int i=1 ; i<nums.length ; i++)
 {
