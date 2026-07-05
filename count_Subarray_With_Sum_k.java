@@ -1,5 +1,5 @@
-class Solution {
-    public int subarraySum(int[] nums, int k) {
+class COUNT {
+    public static int subarraySum(int[] nums, int k) {
 
         int cnt=0;
          for(int i=0 ; i<nums.length ; i++)
@@ -15,4 +15,12 @@ class Solution {
          return cnt;
         
     }
+
+ public static void main(String gg[])
+{
+   int k=subarraySum(new int[]{2,1,-3,3,1,1,1,4,2,1},3);
+
+System.out.println(k);
+
+}
 }
